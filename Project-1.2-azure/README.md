@@ -53,6 +53,7 @@ terraform fmt
 
 **terraform apply -refresh-only command.**
 The terraform apply -refresh-only command is used to update the state file with the real-world infrastructure. This can be used to detect any drift from the last-known state, and to update the state file.
+
 ---
 terraform apply -refresh-only
 ---
