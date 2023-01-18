@@ -1,15 +1,24 @@
+# Terraform Practices 
+
+ 1. ##### Hands-on : Azure Terraform - Compenents, Variables, Outputs
+
+ 2. ##### Hands-on : AWS Terraform - Creating EC2 instance and S3 bucket
+
+ 3. ##### Hands-on : Azure Terraform - Virtaul Network
+
+ 4. ##### Hands-on : Azure Terraform - Creating a remote storage
+ 
+ 5. ##### Hands-on : Azure Terraform - A virtual network, subnets, and public IP addresses
+
+ 6. ##### Hands-on : AWS Terraform - VPC, Routing Table, Gateway
+ 
 # Terraform Projects
 
-#### Project -1 : Variables
+ 1. #### Project : Azure Terraform - Load Balancer with Availability Set
 
-#### Project -2 : Creating EC2 instance and S3 bucket on AWS
+ 2. #### Project : Azure Terraform - Traffic Management - VNets, VMs, RoutingTables, and variables
+ 
+ 3. #### Project : Azure Terraform Partial module for a Game Development Staging Environment 
 
-#### Project -3 : Azure Load Balancer with Availability Set
-
-#### Project -4 : Variables Practice
-
-#### Project -5 : Azure Load Balancer with Availability Set
-
-#### Project -8 : Azure Traffic Management - VNets, VMs, RoutingTables, and variables
-
-#### Project -9 : A virtual network, subnets, and public IP addresses on Azure.
+ 4. #### Project : AWS Terraform - Docker Installation on EC2
+ 
