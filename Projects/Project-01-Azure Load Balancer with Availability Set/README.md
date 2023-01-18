@@ -1,4 +1,4 @@
-# Terraform Project -5: Azure Load Balancer with Availability Set
+# Terraform Project -1: Azure Load Balancer with Availability Set
 ### Scenario
 We are tasked with provisioning an Azure Load Balancer for the HTTP and HTTPS requests with an availability set as the backend pool. We are also tasked to output subnet IDs and the load balancer's frontend IP. Lastly we will keep the tfstate file in a separate storage account remotely.
 
