@@ -53,12 +53,14 @@ resource "azurerm_network_security_group" "tf-nsg" {
 }
 # To make a unique storage account name
 resource "random_pet" "random_pet" {
-  length = 2
+  length = 4
+  type = "alpha"
+  case = lower
 }
 
 # SA
 resource "azurerm_storage_account" "tf-sa" {
-  name                     = "${random_pet.random_pet.id}bfxfx2233"
+  name                     = "${random_pet.random_pet.id}"
   resource_group_name      = azurerm_resource_group.tf_rg.name
   location                 = azurerm_resource_group.tf_rg.location
   account_tier             = "Standard"
