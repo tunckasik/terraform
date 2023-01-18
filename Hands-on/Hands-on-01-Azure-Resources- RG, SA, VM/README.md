@@ -1,6 +1,6 @@
-## Terraform-Project-1.2: Managing Azure resources with Terraform commands.
+## Terraform-Hands-on-1: Managing Azure resources with Terraform commands.
 
-### Project Outcomes
+### Hands-on Outcomes
 At the end of the that terraform file we will be able to generate on Azure;
 - Resource group
 - Storage Account
@@ -30,7 +30,7 @@ Search for virtual machine script from terraform web site;
 To create VM we should have a Resource Group, a Virtual network, Subnet, NIC and IP User ID with password OS.
 Therefore we do all together while virtual machine creating.
 
-### Used commands during the project
+### Used commands during the hands-on
 
 **terraform state list command**
 The terraform state list command is used to list resources within a Terraform state. Terraform stores information about your infrastructure in a state file. This state file keeps track of resources created by your configuration and maps them to real-world resources. Here is the outcomes when applied;
