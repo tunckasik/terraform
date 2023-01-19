@@ -14,11 +14,11 @@
  
 # Terraform Projects
 
- 1. #### Project : Azure Terraform - Load Balancer with Availability Set
+ 1. #### [ Project : Azure Terraform - Load Balancer with Availability Set ](https://github.com/tunckasik/terraform/tree/main/Projects/Project-01-Azure%20Load%20Balancer%20with%20Availability%20Set)
 
- 2. #### Project : Azure Terraform - Traffic Management - VNets, VMs, RoutingTables, and variables
+ 2. #### [ Project : Azure Terraform - Traffic Management - VNets, VMs, RoutingTables, and variables ](https://github.com/tunckasik/terraform/tree/main/Projects/Project-02-Azure_Implement_Traffic_Management)
  
- 3. #### Project : Azure Terraform Partial module for a Game Development Staging Environment 
+ 3. #### [ Project : Azure Terraform - Partial module for a Game Development Staging Environment ](https://github.com/tunckasik/terraform/tree/main/Projects/Project-03-Azure_Game_Development_Staging_Environment_partial%20module)
 
- 4. #### Project : AWS Terraform - Docker Installation on EC2
+ 4. #### [ Project : AWS Terraform - Docker Installation on EC2 ](https://github.com/tunckasik/terraform/tree/main/Projects/Project-04-AWS_Docker_EC2_Terraform_Installation)
  
