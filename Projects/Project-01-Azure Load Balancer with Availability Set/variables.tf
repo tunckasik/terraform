@@ -9,5 +9,6 @@ variable "vm_admin_password" {
 
 variable "virtual_machine_count" {
   description = "Number of Virtual Machine for Production Environment"
-  default     = 2
+  default     = 5
 }
+

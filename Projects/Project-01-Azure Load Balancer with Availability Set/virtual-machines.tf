@@ -29,11 +29,11 @@ resource "azurerm_network_interface" "nic" {
 
 resource "azurerm_virtual_machine" "vm" {
   count                 = var.virtual_machine_count
-  name                  = "tf-vm_${count.index}"
+  name                  = "tf-vm-${count.index}"
   location              = azurerm_resource_group.tf-bronze-rg.location
   resource_group_name   = azurerm_resource_group.tf-bronze-rg.name
   network_interface_ids = [element(azurerm_network_interface.nic.*.id, count.index)]
-  vm_size               = "Standard_DS1_v2"
+  vm_size               = "Standard_B1s"
   availability_set_id   = azurerm_availability_set.a_set.id
 
   storage_image_reference {
@@ -44,14 +44,14 @@ resource "azurerm_virtual_machine" "vm" {
   }
 
   storage_os_disk {
-    name              = "tf-osdisk_${count.index}"
+    name              = "tf-osdisk-${count.index}"
     caching           = "ReadWrite"
     create_option     = "FromImage"
     managed_disk_type = "Standard_LRS"
   }
 
   storage_data_disk {
-    name              = "tf-datadisk_${count.index}"
+    name              = "tf-datadisk-${count.index}"
     managed_disk_type = "Standard_LRS"
     disk_size_gb      = "1023"
     create_option     = "Empty"
@@ -62,7 +62,7 @@ resource "azurerm_virtual_machine" "vm" {
   delete_data_disks_on_termination = true
 
   os_profile {
-    computer_name  = "tf-vm_${count.index}"
+    computer_name  = "tf-vm-${count.index}"
     admin_username = "bronze"
     admin_password = var.vm_admin_password
   }
