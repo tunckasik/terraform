@@ -1,7 +1,9 @@
 variable "prefix" {
   default = "tf-docker-vm"
 }
-
+variable "location" {
+  default = "East US"
+}
 variable "server-name" {
   type = string
   default = "docker-instance"
