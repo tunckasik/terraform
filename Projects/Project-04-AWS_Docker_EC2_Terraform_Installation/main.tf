@@ -8,8 +8,6 @@ terraform {
 }
 provider "aws" {
   region      = "us-east-1"
-  access_key  = "AKIA6ET343TA32INW2WD"
-  secret_key  = "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"
 }
 data "aws_ami" "amazon-linux-2" {
   owners      = ["amazon"]
